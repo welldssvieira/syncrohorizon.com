@@ -1,0 +1,262 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", sans-serif;
+}
+
+#cabecalho {
+    width: 100%;
+    border-bottom: 1px solid #eff1f2;
+}
+
+#cabecalho .desktop {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+#cabecalho .desktop .logomarca {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho .desktop .navegacao {
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho .desktop .botao-contato {
+    width: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho .desktop .logomarca img {
+    width: 150px;
+}
+
+#cabecalho .desktop .navegacao {
+    width: 80%;
+}
+
+#cabecalho .desktop .navegacao ul {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho .desktop .navegacao ul li {
+    margin: 0 5px;
+}
+
+#cabecalho .desktop .navegacao ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 120px;
+    height: 30px;
+    border-radius: 5px;
+}
+
+#cabecalho .desktop .navegacao ul li a:hover {
+    background-color: #f2f7fc;
+}
+
+#cabecalho .desktop .navegacao ul li .icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+}
+
+#cabecalho .desktop .navegacao ul li .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho .desktop .navegacao ul li .seta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+}
+
+#cabecalho .desktop .navegacao ul li .icone img,
+#cabecalho .desktop .navegacao ul li .seta img {
+    width: 15px;
+}
+
+#cabecalho .desktop .navegacao ul li .texto p {
+    color: #262626;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+#cabecalho .desktop .navegacao .idioma a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho .desktop .botao-contato a {
+    padding: 12px 25px;
+    border-radius: 5px;
+    text-decoration: none;
+    color: #0064ff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+    background-color: #d5e2f1;
+}
+
+#cabecalho .desktop .botao-contato a:hover {
+    background-color: #e2edf7;
+}
+
+#cabecalho #idiomas-secundarios,
+#cabecalho #sobre-secundarios,
+#cabecalho #aplicativos-secundarios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 140px;
+    padding: 10px 5px;
+    border-radius: 15px;
+    background-color: white;
+    box-shadow: 2px 3px 4px rgba(0, 0, 0, 0.1);
+
+}
+
+#cabecalho #idiomas-secundarios{
+    position: absolute;
+    top: 80px;
+    right: 353px;
+}
+
+#cabecalho #sobre-secundarios{
+    position: absolute;
+    top: 80px;
+    right: 745px;
+}
+
+#cabecalho #aplicativos-secundarios{
+    position: absolute;
+    top: 80px;
+    right: 620px;
+}
+
+#cabecalho #aplicativos-secundarios .aplicativo a,
+#cabecalho #idiomas-secundarios .idioma a,
+#cabecalho #sobre-secundarios .sobre a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-decoration: none;
+    width: 120px;
+    height: 40px;
+    padding: 0 10px;
+    border-radius: 5px;
+    background-color: white;
+}
+
+#cabecalho #aplicativos-secundarios .aplicativo,
+#cabecalho #idiomas-secundarios .idioma,
+#cabecalho #sobre-secundarios .sobre {
+    list-style: none;
+}
+
+#cabecalho #aplicativos-secundarios ul,
+#cabecalho #idiomas-secundarios ul,
+#cabecalho #sobre-secundarios ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho #aplicativos-secundarios ul li,
+#cabecalho #idiomas-secundarios ul li,
+#cabecalho #sobre-secundarios ul li {
+    margin: 5px 0;
+}
+
+#cabecalho #aplicativos-secundarios ul li a,
+#cabecalho #idiomas-secundarios ul li a,
+#cabecalho #sobre-secundarios ul li a {
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    text-decoration: none;
+    width: 120px;
+    height: 30px;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+
+#cabecalho #aplicativos-secundarios li a:hover,
+#cabecalho #idiomas-secundarios li a:hover,
+#cabecalho #sobre-secundarios li a:hover {
+    background-color: #f2f7fc;
+}
+
+#cabecalho #aplicativos-secundarios li .icone,
+#cabecalho #idiomas-secundarios li .icone,
+#cabecalho #sobre-secundarios li .icone {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+}
+
+#cabecalho #aplicativos-secundarios li .texto,
+#cabecalho #idiomas-secundarios li .texto,
+#cabecalho #sobre-secundarios li .texto {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#cabecalho #aplicativos-secundarios li .seta,
+#cabecalho #idiomas-secundarios li .seta,
+#cabecalho #sobre-secundarios li .seta {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 25px;
+}
+
+#cabecalho #aplicativos-secundarios li .icone img,
+#cabecalho #aplicativos-secundarios li .seta img,
+#cabecalho #idiomas-secundarios li .icone img,
+#cabecalho #idiomas-secundarios li .seta img,
+#cabecalho #sobre-secundarios li .icone img,
+#cabecalho #sobre-secundarios li .seta img {
+    width: 15px;
+}
+
+#cabecalho #aplicativos-secundarios li .texto p,
+#cabecalho #idiomas-secundarios li .texto p,
+#cabecalho #sobre-secundarios li .texto p {
+    color: #262626;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+}
