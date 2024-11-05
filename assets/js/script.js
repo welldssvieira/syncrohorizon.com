@@ -65,6 +65,7 @@ function fecharBotaoMenuMobile() {
     botaoFechar.style.display = "none"
 
     menu.style.display = "none"
+    fecharBotaoMenuMobile()
 }
 
 function apresentarSubmenuIdiomasMobile() {
