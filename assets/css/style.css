@@ -132,7 +132,7 @@
 #cabecalho #idiomas-secundarios,
 #cabecalho #sobre-secundarios,
 #cabecalho #aplicativos-secundarios{
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
     width: 140px;

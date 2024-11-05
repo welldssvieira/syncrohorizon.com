@@ -44,7 +44,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li onmouseover="apresentarSubmenuSobre()">
                         <a href="#" title="Clique para acessar a sessão sobre.">
                             <div class="icone">
                                 <img src="media/icones/Icon_sobre.png" alt="Icone sobre.">
@@ -57,7 +57,7 @@
                             </div>
                         </a>
                     </li>
-                    <li>
+                    <li onmouseover="apresentarSubmenuAplicativos()">
                         <a href="#" title="Clique para acessar a sessão aplicativos.">
                             <div class="icone">
                                 <img src="media/icones/Icon_aplicativos.png" alt="Icone aplicativos.">
@@ -80,7 +80,7 @@
                             </div>
                         </a>
                     </li>
-                    <li class="idioma">
+                    <li class="idioma" onmouseover="apresentarSubmenuIdiomas()">
                         <a href="#" title="Clique para mudar o idioma da página.">
                             <div class="icone">
                                 <img src="media/icones/Icon_bandeira-Brasil.png" alt="Icone idioma ativo.">
@@ -100,7 +100,7 @@
             </div>
         </section>
 
-        <section id="idiomas-secundarios">
+        <section id="idiomas-secundarios" onmouseleave="recolherSubmenuIdiomas()">
             <ul>
                 <li class="idioma">
                     <a href="#" title="Clique para mudar o idioma da página.">
@@ -144,7 +144,7 @@
                 </li>
             </ul>
         </section>
-        <section id="sobre-secundarios">
+        <section id="sobre-secundarios" onmouseleave="recolherSubmenuSobre()">
             <ul>
                 <li class="sobre">
                     <a href="#" title="Clique para mudar o idioma da página.">
@@ -168,7 +168,7 @@
                 </li>
             </ul>
         </section>
-        <section id="aplicativos-secundarios">
+        <section id="aplicativos-secundarios" onmouseleave="recolherSubmenuAplicativos()">
             <ul>
                 <li class="app">
                     <a href="#" title="Clique para mudar o idioma da página.">
