@@ -69,10 +69,11 @@ function fecharBotaoMenuMobile() {
 }
 
 function apresentarSubmenuIdiomasMobile() {
- // Fecha todos os submenus antes de abrir o atual
+    // Fecha todos os submenus antes de abrir o atual
+    fecharTodosSubmenusMobile();
     const menuIdiomas = document.querySelector("#cabecalho .mobile #idiomas-secundarios");
     menuIdiomas.style.display = "block";
-    fecharTodosSubmenusMobile();
+
 }
 
 function recolherSubmenuIdiomasMobile() {
