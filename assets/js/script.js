@@ -30,15 +30,15 @@ function apresentarSubmenuAplicativos() {
 }
 
 function recolherSubmenuAplicativos() {
-    const menuAplicativos = document.querySelector("#cabecalho #aplicativos-secundarios");
+    const menuAplicativos = document.querySelector("#cabecalho .desktop #aplicativos-secundarios");
     menuAplicativos.style.display = "none";
 }
 
 // Função para fechar todos os submenus
 function fecharTodosSubmenus() {
-    const menuIdiomas = document.querySelector("#cabecalho #idiomas-secundarios");
-    const menuAplicativos = document.querySelector("#cabecalho #aplicativos-secundarios");
-    const menuSobre = document.querySelector("#cabecalho #sobre-secundarios");
+    const menuIdiomas = document.querySelector("#cabecalho .desktop #idiomas-secundarios");
+    const menuAplicativos = document.querySelector("#cabecalho .desktop #aplicativos-secundarios");
+    const menuSobre = document.querySelector("#cabecalho .desktop #sobre-secundarios");
 
     menuIdiomas.style.display = "none";
     menuAplicativos.style.display = "none";
@@ -65,13 +65,14 @@ function fecharBotaoMenuMobile() {
     botaoFechar.style.display = "none"
 
     menu.style.display = "none"
-    fecharBotaoMenuMobile()
+    fecharTodosSubmenusMobile();
 }
 
 function apresentarSubmenuIdiomasMobile() {
-    fecharTodosSubmenusMobile(); // Fecha todos os submenus antes de abrir o atual
+ // Fecha todos os submenus antes de abrir o atual
     const menuIdiomas = document.querySelector("#cabecalho .mobile #idiomas-secundarios");
     menuIdiomas.style.display = "block";
+    fecharTodosSubmenusMobile();
 }
 
 function recolherSubmenuIdiomasMobile() {
@@ -105,9 +106,9 @@ function recolherSubmenuAplicativosMobile() {
 
 // Função para fechar todos os submenus
 function fecharTodosSubmenusMobile() {
-    const menuIdiomas = document.querySelector("#cabecalho #idiomas-secundarios");
-    const menuAplicativos = document.querySelector("#cabecalho #aplicativos-secundarios");
-    const menuSobre = document.querySelector("#cabecalho #sobre-secundarios");
+    const menuIdiomas = document.querySelector("#cabecalho .mobile #idiomas-secundarios");
+    const menuAplicativos = document.querySelector("#cabecalho .mobile #aplicativos-secundarios");
+    const menuSobre = document.querySelector("#cabecalho .mobile #sobre-secundarios");
 
     menuIdiomas.style.display = "none";
     menuAplicativos.style.display = "none";
