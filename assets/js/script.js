@@ -148,3 +148,67 @@ function modificarIconesIdiomaFrançais() {
     iconeIdiomaAtual.src = "media/icones/Icon_bandeira-França.png";
     nomeIdiomaAtual.innerHTML = "Français";
 }
+
+function modificarIconesIdiomaPortuguêsDesktop() {
+    const iconeIdiomaAtual = document.querySelector("#cabecalho .desktop .navegacao ul li .icone.Atual img");
+    const nomeIdiomaAtual = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Atual p");
+    const nomeMenuNavBarHome = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Home")
+    const nomeMenuNavBarSobre = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Sobre")
+    const nomeMenuNavBarAplicativos = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Aplicativos")
+    const nomeMenuNavBarServiços = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Serviços")
+
+    iconeIdiomaAtual.src = "media/icones/Icon_bandeira-Brasil.png";
+    nomeIdiomaAtual.innerHTML = "Português";
+    nomeMenuNavBarHome.innerHTML = "Menu" 
+    nomeMenuNavBarSobre.innerHTML = "Sobre"
+    nomeMenuNavBarAplicativos.innerHTML = "Aplicativos" 
+    nomeMenuNavBarServiços.innerHTML = "Serviços"
+}
+
+function modificarIconesIdiomaEnglishDesktop() {
+    const iconeIdiomaAtual = document.querySelector("#cabecalho .desktop .navegacao ul li .icone.Atual img");
+    const nomeIdiomaAtual = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Atual p");
+    const nomeMenuNavBarHome = document.querySelector("#cabecalho .desktop .navegacao ul li a .texto.Home")
+    const nomeMenuNavBarSobre = document.querySelector("#cabecalho .desktop .navegacao ul li a .texto.Sobre")
+    const nomeMenuNavBarAplicativos = document.querySelector("#cabecalho .desktop .navegacao ul li a .texto.Aplicativos")
+    const nomeMenuNavBarServiços = document.querySelector("#cabecalho .desktop .navegacao ul li a .texto.Serviços")
+
+    iconeIdiomaAtual.src = "media/icones/Icon_bandeira-EstadosUnidos.png";
+    nomeIdiomaAtual.innerHTML = "English";
+    nomeMenuNavBarHome.innerHTML = "Menu"; 
+    nomeMenuNavBarSobre.innerHTML = "About";
+    nomeMenuNavBarAplicativos.innerHTML = "Apps"; 
+    nomeMenuNavBarServiços.innerHTML = "Services";
+}
+
+function modificarIconesIdiomaEspañolDesktop() {
+    const iconeIdiomaAtual = document.querySelector("#cabecalho .desktop .navegacao ul li .icone.Atual img");
+    const nomeIdiomaAtual = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Atual p");
+    const nomeMenuNavBarHome = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Home")
+    const nomeMenuNavBarSobre = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Sobre")
+    const nomeMenuNavBarAplicativos = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Aplicativos")
+    const nomeMenuNavBarServiços = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Serviços")
+
+    iconeIdiomaAtual.src = "media/icones/Icon_bandeira-Espanha.png";
+    nomeIdiomaAtual.innerHTML = "Español";
+    nomeMenuNavBarHome.innerHTML = "Menú"; 
+    nomeMenuNavBarSobre.innerHTML = "Sobre";
+    nomeMenuNavBarAplicativos.innerHTML = "Aplicaciones"; 
+    nomeMenuNavBarServiços.innerHTML = "Servicios";
+}
+
+function modificarIconesIdiomaFrançaisDesktop() {
+    const iconeIdiomaAtual = document.querySelector("#cabecalho .desktop .navegacao ul li .icone.Atual img");
+    const nomeIdiomaAtual = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Atual p");
+    const nomeMenuNavBarHome = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Home")
+    const nomeMenuNavBarSobre = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Sobre")
+    const nomeMenuNavBarAplicativos = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Aplicativos")
+    const nomeMenuNavBarServiços = document.querySelector("#cabecalho .desktop .navegacao ul li .texto.Serviços")
+
+    iconeIdiomaAtual.src = "media/icones/Icon_bandeira-França.png";
+    nomeIdiomaAtual.innerHTML = "Français";
+    nomeMenuNavBarHome.innerHTML = "Menu"; 
+    nomeMenuNavBarSobre.innerHTML = "À propos";
+    nomeMenuNavBarAplicativos.innerHTML = "Applications"; 
+    nomeMenuNavBarServiços.innerHTML = "Services";
+}
