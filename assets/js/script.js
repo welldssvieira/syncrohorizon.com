@@ -116,4 +116,35 @@ function fecharTodosSubmenusMobile() {
     menuSobre.style.display = "none";
 }
 
+// Função para modificar os icones do idioma da página
+function modificarIconesIdiomaPortuguês() {
+    const iconeIdiomaAtual = document.querySelector("#cabecalho .mobile .mobile-line2 .navegacao ul li a .icone.Atual img");
+    const nomeIdiomaAtual = document.querySelector("#cabecalho .mobile .mobile-line2 .navegacao ul li a .texto.Atual p");
 
+    iconeIdiomaAtual.src = "media/icones/Icon_bandeira-Brasil.png";
+    nomeIdiomaAtual.innerHTML = "Português";
+}
+
+function modificarIconesIdiomaEnglish() {
+    const iconeIdiomaAtual = document.querySelector("#cabecalho .mobile .mobile-line2 .navegacao ul li a .icone.Atual img");
+    const nomeIdiomaAtual = document.querySelector("#cabecalho .mobile .mobile-line2 .navegacao ul li a .texto.Atual p");
+
+    iconeIdiomaAtual.src = "media/icones/Icon_bandeira-EstadosUnidos.png";
+    nomeIdiomaAtual.innerHTML = "English";
+}
+
+function modificarIconesIdiomaEspañol() {
+    const iconeIdiomaAtual = document.querySelector("#cabecalho .mobile .mobile-line2 .navegacao ul li a .icone.Atual img");
+    const nomeIdiomaAtual = document.querySelector("#cabecalho .mobile .mobile-line2 .navegacao ul li a .texto.Atual p");
+
+    iconeIdiomaAtual.src = "media/icones/Icon_bandeira-Espanha.png";
+    nomeIdiomaAtual.innerHTML = "Español";
+}
+
+function modificarIconesIdiomaFrançais() {
+    const iconeIdiomaAtual = document.querySelector("#cabecalho .mobile .mobile-line2 .navegacao ul li a .icone.Atual img");
+    const nomeIdiomaAtual = document.querySelector("#cabecalho .mobile .mobile-line2 .navegacao ul li a .texto.Atual p");
+
+    iconeIdiomaAtual.src = "media/icones/Icon_bandeira-França.png";
+    nomeIdiomaAtual.innerHTML = "Français";
+}

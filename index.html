@@ -230,7 +230,7 @@
                                 <div class="texto">
                                     <p>Home</p>
                                 </div>
-                            </a>
+                            </a> 
                         </li>
                         <li onclick="apresentarSubmenuSobreMobile()">
                             <a href="#" title="Clique para acessar a sessão sobre.">
@@ -278,16 +278,16 @@
                                 </div>
                             </a>
                         </li>
-                        <li class="idioma" onclick="apresentarSubmenuIdiomasMobile()">
+                        <li class="idioma Atual" onclick="apresentarSubmenuIdiomasMobile()">
                             <a href="#" title="Clique para mudar o idioma da página.">
                                 <div class="col-esquerda">
-                                    <div class="icone">
+                                    <div class="icone Atual">
                                         <img src="media/icones/Icon_bandeira-Brasil.png" alt="Icone idioma ativo.">
                                     </div>
 
                                 </div>
                                 <div class="col-direita">
-                                    <div class="texto">
+                                    <div class="texto Atual">
                                         <p>Português</p>
                                     </div>
                                     <div class="seta">
@@ -302,43 +302,43 @@
 
             <section id="idiomas-secundarios" onclick="fecharTodosSubmenusMobile()">
                 <ul>
-                    <li class="idioma">
+                    <li class="idioma Português" onclick="modificarIconesIdiomaPortuguês()">
                         <a href="#" title="Clique para mudar o idioma da página.">
                             <div class="icone">
                                 <img src="media/icones/Icon_bandeira-Brasil.png" alt="Icone idioma.">
                             </div>
                             <div class="texto">
-                                <p>Português</p>
+                                <p class="nomeIdioma">Português</p>
                             </div>
                         </a>
                     </li>
-                    <li class="idioma">
+                    <li class="idioma English" onclick="modificarIconesIdiomaEnglish() ">
                         <a href="#" title="Clique para mudar o idioma da página.">
                             <div class="icone">
-                                <img src="media/icones/Icon_bandeira-EstadosUnidos.png" alt="Icone idioma.">
+                                <img class="iconeIdiomaEnglish" src="media/icones/Icon_bandeira-EstadosUnidos.png" alt="Icone idioma.">
                             </div>
                             <div class="texto">
-                                <p>English</p>
+                                <p class="nomeIdiomaEnglish">English</p>
                             </div>
                         </a>
                     </li>
-                    <li class="idioma">
+                    <li class="idioma Español" onclick="modificarIconesIdiomaEspañol()">
                         <a href="#" title="Clique para mudar o idioma da página.">
                             <div class="icone">
-                                <img src="media/icones/Icon_bandeira-Espanha.png" alt="Icone idioma.">
+                                <img class="iconeIdiomaEspañol" src="media/icones/Icon_bandeira-Espanha.png" alt="Icone idioma.">
                             </div>
                             <div class="texto">
-                                <p>Español</p>
+                                <p class="nomeIdiomaEspañol">Español</p>
                             </div>
                         </a>
                     </li>
-                    <li class="idioma">
+                    <li class="idioma Français" onclick="modificarIconesIdiomaFrançais()">
                         <a href="#" title="Clique para mudar o idioma da página.">
                             <div class="icone">
-                                <img src="media/icones/Icon_bandeira-França.png" alt="Icone idioma.">
+                                <img class="iconeIdiomaFrançais" src="media/icones/Icon_bandeira-França.png" alt="Icone idioma.">
                             </div>
                             <div class="texto">
-                                <p>Français</p>
+                                <p class="nomeIdiomaFrançais">Français</p>
                             </div>
                         </a>
                     </li>
