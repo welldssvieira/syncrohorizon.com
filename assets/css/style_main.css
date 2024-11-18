@@ -162,10 +162,6 @@
         margin: 20px 0; 
     }
 
-    #home .imagem img{
-        width: 120px;
-    }
-
     #home .informacoes .tag-primaria p,
     #home .informacoes .tag-secundaria p{
         font-size: 8px;
