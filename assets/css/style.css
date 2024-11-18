@@ -72,7 +72,8 @@
     justify-content: center;
     text-decoration: none;
     width: 120px;
-    height: 30px;
+    height: 40px;
+    padding: 10px;
     border-radius: 5px;
     color: #262626;
     font-size: 12px;
@@ -157,19 +158,19 @@
 /*DESATIVAR AO DESATIVAR O MENU DE IDIOMAS*/
 #cabecalho .desktop #idiomas-secundarios {
     position: absolute;
-    top: 80px;
+    top: 83px;
     right: 353px;
 }
 
 #cabecalho .desktop #sobre-secundarios {
     position: absolute;
-    top: 80px;
+    top: 83px;
     right: 670px;
 }
 
 #cabecalho .desktop #aplicativos-secundarios {
     position: absolute;
-    top: 80px;
+    top: 83px;
     right: 550px;
 }*/
 
@@ -177,19 +178,19 @@
 ATIVAR AO ATIVAR O MENU DE IDIOMAS
 #cabecalho .desktop #idiomas-secundarios {
     position: absolute;
-    top: 80px;
+    top: 83px;
     right: 353px;
 }
 
 #cabecalho .desktop #sobre-secundarios {
     position: absolute;
-    top: 80px;
+    top: 83px;
     right: 745px;
 }
 
 #cabecalho .desktop #aplicativos-secundarios {
     position: absolute;
-    top: 80px;
+    top: 83px;
     right: 620px;
 }*/
 
