@@ -237,8 +237,8 @@ ATIVAR AO ATIVAR O MENU DE IDIOMAS
     justify-content: start;
     text-decoration: none;
     width: 120px;
-    height: 30px;
-    padding-left: 10px;
+    height: 40px;
+    padding: 10px;
     border-radius: 5px;
 }
 
@@ -469,6 +469,18 @@ ATIVAR AO ATIVAR O MENU DE IDIOMAS
         border-radius: 15px;
         background-color: white;
         box-shadow: none;
+    }
+
+    #cabecalho #sobre-secundarios .sobre:hover,
+    #cabecalho #aplicativos-secundarios .app:hover{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-color: #f5f5f5;
+        height: 40px;
+        padding: 0 10px;
+        border-radius: 5px;
     }
 }
 
