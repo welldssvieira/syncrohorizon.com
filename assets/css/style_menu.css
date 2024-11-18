@@ -349,6 +349,13 @@ ATIVAR AO ATIVAR O MENU DE IDIOMAS
 #cabecalho .mobile .mobile-line2 .navegacao {
     display: none;
     width: 100%;
+    height: 100vh;
+}
+
+#cabecalho #aplicativos-secundarios ul, 
+#cabecalho #idiomas-secundarios ul, 
+#cabecalho #sobre-secundarios ul{
+    height: 100vh;
 }
 
 #cabecalho .mobile .mobile-line2 .navegacao ul {
