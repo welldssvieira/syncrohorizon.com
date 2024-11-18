@@ -313,6 +313,7 @@ ATIVAR AO ATIVAR O MENU DE IDIOMAS
     display: flex;
     align-items: center;
     justify-content: center;
+    background-color: #ffffff;
 }
 
 #cabecalho .mobile .mobile-line1 .logomarca,

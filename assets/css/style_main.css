@@ -1,0 +1,161 @@
+#home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    padding: 50px;
+}
+
+#home .informacoes,
+#home .imagem {
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .informacoes {
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+}
+
+#home .informacoes .tag {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #f5f5f5;
+    padding: 4px 10px;
+    border-radius: 5px;
+}
+
+#home .informacoes .tag-primaria {
+    background-color: #d5e2f1;
+    border-radius: 5px;
+}
+
+#home .informacoes .tag-primaria p,
+#home .informacoes .tag-secundaria p {
+    font-size: 10px;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: normal;
+    padding: 5px 15px;
+}
+
+#home .informacoes .tag-primaria p {
+    color: #262626;
+}
+
+#home .informacoes .tag-secundaria p {
+    color: #006fef;
+}
+
+#home .informacoes .titulo h1 {
+    color: #262626;
+    font-size: 35px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+#home .informacoes .titulo h1 span {
+    font-weight: 800;
+}
+
+#home .informacoes .subtitulo p {
+    color: #606060;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+#home .informacoes .botao-reuniao a {
+    padding: 12px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #d5e2f1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#home .informacoes .botao-reuniao a:hover {
+    background-color: #e2edf7;
+}
+
+#home .informacoes .botao-reuniao a .texto p {
+    color: #0064ff;
+    font-size: 12px;
+    font-weight: 600;
+    line-height: normal;
+    letter-spacing: normal;
+}
+
+#home .informacoes .botao-reuniao a .icone img {
+    width: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 5px;
+}
+
+#home .imagem img {
+    width: 350px;
+}
+
+#home .informacoes .tag,
+#home .informacoes .titulo,
+#home .informacoes .subtitulo,
+#home .informacoes .botao-reuniao {
+    margin: 8px 0;
+}
+
+.marca-dagua {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.marca-dagua img {
+    width: 700px;
+    opacity: 3%;
+    position: absolute;
+    z-index: -1;
+    top: -60px;
+}
+
+@media (max-width: 767px) {
+    #home {
+        flex-direction: column;
+        padding: 20px;
+    }
+
+    #home .informacoes,
+    #home .imagem {
+        width: 100%;
+    }
+
+    #home .informacoes .tag,
+    #home .informacoes .botao-reuniao{
+        width: auto;
+    }
+
+    #home .informacoes .titulo h1{
+        font-size: 25px;
+    }
+
+    #home .informacoes .subtitulo p{
+        font-size: 12px;
+    }
+
+    .marca-dagua img {
+        width: 450px;
+        top: 150px;
+    }
+}
+
+@media (min-width: 1281px) and (max-width: 1440px) {}
