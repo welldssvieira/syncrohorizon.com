@@ -324,6 +324,10 @@ ATIVAR AO ATIVAR O MENU DE IDIOMAS
     justify-content: end;
 }
 
+#cabecalho .mobile .mobile-line1 .botoes{
+    margin-right: 10px;
+}
+
 #cabecalho .mobile .mobile-line1 .logomarca img {
     width: 150px;
     cursor: pointer;

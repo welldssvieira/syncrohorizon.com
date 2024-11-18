@@ -156,6 +156,24 @@
         width: 450px;
         top: 150px;
     }
+
+    #home .informacoes,
+    #home .imagem{
+        margin: 20px 0; 
+    }
+
+    #home .informacoes .tag-primaria p,
+    #home .informacoes .tag-secundaria p{
+        font-size: 8px;
+    }
+
+    #home .informacoes .tag-primaria p {
+        padding: 3px 7px;
+    }
+    
+    #home .informacoes .tag-secundaria p {
+        padding: 5px 10px;
+    }
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {}
