@@ -114,6 +114,18 @@ function fecharTodosSubmenusMobile() {
     menuIdiomas.style.display = "none";
     menuAplicativos.style.display = "none";
     menuSobre.style.display = "none";
+
+    const botaoAbrir = document.querySelector("#cabecalho .mobile .mobile-line1 .botoes .botao-abrir img")
+    const botaoFechar = document.querySelector("#cabecalho .mobile .mobile-line1 .botoes .botao-fechar img")
+    botaoAbrir.style.display = "block"  
+    botaoFechar.style.display = "none"
+    fecharMenuPrincipal()
+
+}
+
+function fecharMenuPrincipal(){
+    const menuGeral = document.querySelector("#cabecalho .mobile .mobile-line2 .navegacao");
+    menuGeral.style.display = "none";
 }
 
 // Função para modificar os icones do idioma da página

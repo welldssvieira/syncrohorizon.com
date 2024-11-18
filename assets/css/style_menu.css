@@ -325,6 +325,7 @@ ATIVAR AO ATIVAR O MENU DE IDIOMAS
 }
 
 #cabecalho .mobile .mobile-line1 .botoes{
+    cursor: pointer;
     margin-right: 10px;
 }
 
@@ -352,12 +353,12 @@ ATIVAR AO ATIVAR O MENU DE IDIOMAS
     height: 100vh;
 }
 
-#cabecalho #aplicativos-secundarios ul, 
-#cabecalho #idiomas-secundarios ul, 
-#cabecalho #sobre-secundarios ul{
+#cabecalho .mobile #aplicativos-secundarios ul, 
+#cabecalho .mobile #idiomas-secundarios ul, 
+#cabecalho .mobile #sobre-secundarios ul{
     height: 100vh;
-    position: relative;
-    top: -230px;
+    justify-content: start;
+    background-color: #ffffff;
 }
 
 #cabecalho .mobile .mobile-line2 .navegacao ul {
@@ -497,6 +498,7 @@ ATIVAR AO ATIVAR O MENU DE IDIOMAS
         padding: 0 10px;
         border-radius: 5px;
     }
+
 }
 
 @media (min-width: 1281px) and (max-width: 1440px) {
